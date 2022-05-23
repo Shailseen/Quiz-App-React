@@ -17,7 +17,6 @@ body {
 }
 
 .outline-button {
-  background-color: black;
   width: 5rem;
   font-size: 1rem;
 }
@@ -25,6 +24,7 @@ body {
 .outline-button:hover {
   background-color: var(--primary-color);
   color: black;
+  border: 2px solid var(--primary-color);
 }
 
 .solid-button:hover{

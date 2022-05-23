@@ -60,7 +60,7 @@ export const QuestionList = () => {
       >
         <div className={styles.flex}>
           <div>
-            Q. {questionIndex + 1}/{questionData && questionData.length}
+            {`Q. ${questionIndex+1} /${questionData && questionData.length}`}
           </div>
         </div>
         {questionData !== undefined && (

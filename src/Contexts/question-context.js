@@ -37,9 +37,8 @@ const QuestionProvider = ({ children }) => {
         temp.push(obj);
       });
       setQuestionData(temp);
-      console.log(temp);
     } catch (err) {
-      // console.log(err);
+      
     }
   };
 
