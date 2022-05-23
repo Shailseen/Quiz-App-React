@@ -13,7 +13,7 @@ export const QuestionList = () => {
   const { questionIndex, setQuestionIndex, questionData } = useQuestion();
   const navigate = useNavigate();
   const [second, setSecond] = useState(59);
-  const [minute, setMinute] = useState(0);
+  const [minute, setMinute] = useState(4);
   useEffect(() => {
     const interval = setInterval(() => {
       if (second === 0) {
